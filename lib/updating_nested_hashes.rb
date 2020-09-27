@@ -60,8 +60,9 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
 
-epic_tragedy[:additional_characters] = [{:name = " "}, {:name = " "}]
-
+epic_tragedy[:additional_characters] = [{}, {}]
+epic_tragedy[:additional_characters][0] = " "
+epic_tragedy[:additional_characters][1] = " "
 
 
 
